@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+      body {
+        overflow: hidden;
+      }
+      #container img {
+        position: relative;
+        
+      }
+      nav {
+        justify-content: space-between !important;
+      }
+      #conatiner 
+      #header {
+        position: absolute;
+        top: 18px;
+        width: 90%;
+        z-index: 100;
+        left: 85px;        
+      }
+      .background {
+        width: 90%;
+        min-height: 630px;
+      }
+      .background img {
+        width: 90%;
+        min-height: inherit;
+      }
+      #bt {
+        width:45%;
+        position: absolute;
+        left: 36%;
+        bottom:9%;
+      }
+      #bt img {
+        width: 100%;
+        height: 100%;
+      }
+      #header #navbarNav {
+        width: 20%;
+        flex-grow: 0;
+      }
+      #para {
+        width: 27%;
+        position: absolute;
+        left:105px;
+        top:240px;
+      }
+      /* #navbarNav ul li {
+        padding: 10px;
+      } */
+      #button {
+            background-color: #fff;
+            border-radius: 21px;
+            text-align: center;
+            line-height: 37px;
+            width:30%;
+            color: red;
+            margin-top: 23px;
+     }
+     h1 {
+       color: #fff;
+     }
+     h2 {
+       color: #8b97a3;
+     }
+     .icon-bar {
+	     width: 22px; 
+	    height: 2px;
+	    background-color: #B6B6B6;
+	    display: block;
+	    transition: all 0.2s;
+	    margin-top: 4px
+    }
+    .navbar-toggler .top-bar {
+      transform: rotate(45deg);
+      transform-origin: 10% 10%;
+     }
+ 
+    .navbar-toggler .middle-bar {
+      opacity: 0;
+    }
+ 
+    .navbar-toggler .bottom-bar {
+      transform: rotate(-45deg);
+      transform-origin: 10% 90%;
+    }
+ 
+    .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+   }
+ 
+    .navbar-toggler.collapsed .middle-bar {
+       opacity: 1;
+   }
+ 
+     .navbar-toggler.collapsed .bottom-bar {
+      transform: rotate(0);
+   }
+ 
+     .navbar-toggler {
+      border: none;
+      background: transparent !important;
+   }
+    #navbarNav ul li a {
+      color: red;
+    }
+      @media (max-width:1024px) {
+        #conatiner #header {
+              left: 65px;
+        }
+        #para {
+          left: 94px;
+          top:200px;
+        }
+        #bt {
+          width: 50%;
+          left: 32%;
+          bottom: 56px;
+       }
+
+      }
+      @media (max-width:992px) {
+        #conatiner #header {
+              left: 27px;
+              width: 94%;
+
+        }
+        #header img  {
+          width: 100%;
+          height: 67px;
+        }
+
+        .background {
+          width: 90%;
+           min-height: 558px;
+        }
+        .background img {
+          width: 94%;
+        }
+        #para h2 {
+           font-size: 20px;
+        }
+        #para h1 {
+          font-size: 27px;
+        }
+        #para {
+          left: 58px;
+          top: 136px;
+        }
+        #bt {
+          left: 36%;
+         bottom: 135px;
+        }
+        #button {
+          line-height: 34px;
+          width: 39%;
+          margin-top: 14px;
+        }
+        #bt {
+         width: 52%;
+         left: 36%;
+         bottom: 103px;
+        }
+
+      }
+      @media (max-width:768px) {
+        #bt {
+          left: 28%;
+          bottom: 144px;
+          width: 55%;
+        }
+      }
+      @media (max-width:576px) {
+        #conatiner #header {
+          left: 40px;
+        }
+        #para {
+          left: 63px;
+        }
+        #bt {
+          width: 60%;
+          left: 25%;
+          bottom: 177px;
+        }
+        #navbarNav ul  {
+           background:#fff;
+        }
+      }
+      @media (max-width:640px) {
+        #container #header {
+          left: 40px;
+        }
+      }
+      @media (max-width:480px) {
+        .background {
+          width: 100%;
+          min-height: 565px;
+        }
+        #header img {
+          width: 117px;
+          height: 67px;
+        }
+        #header {
+          left: 15px;
+        }
+        #bt {
+        width: 81%;
+        left: 19%;
+        bottom: 96px;
+        height: 228px;
+       }
+       #para {
+        left: 31px;
+        top: 22%;
+        width: 75%;
+       }
+       #button {
+        line-height: 31px;
+        width: 37%;
+        margin-top: 14px;
+      }
+      }
+      @media (max-width:375px) {
+        .background {
+         width: 94%;
+         min-height: 571px;
+        }
+        #conatiner #header {
+          left: 32px;
+        }
+        #header img {
+          width: 90%;
+          height: 0%;
+        }
+        #bt {
+          width: 78%;
+          left: 20%;
+          bottom: 105px;
+          height: 226px;
+        }
+        #para {
+         left: 37px;
+         top: 117px;
+         width: 71%;
+        }
+        #button {
+         line-height: 29px;
+         width: 40%;
+         margin-top: 19px;
+        }
+      }
+    </style>
+</head>
+
+<body>
+  <div id="conatiner">
+      <div class="background"><img src="/jufmy/assets/images/Home Bg.png" alt=""></div>
+      <div class="container">
+          <header id="header">
+            <nav class="navbar navbar-expand-md navbar-light bg-transparent">
+                <a class="navbar-brand" href="#">
+                    <img src="/jufmy/assets/images/Logo dark.png" width="126" height="84" alt="">
+                  </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="icon-bar top-bar"></span>
+	                <span class="icon-bar middle-bar"></span>
+                	<span class="icon-bar bottom-bar"></span>	
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav text-right">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                  </ul>
+                </div>
+           </nav>
+          </header>
+          <div id="bt">
+            <img src="/jufmy/assets/images/Home Illus.png" alt="">
+          </div>
+        </div>
+        <div id="para">
+          <h1>Brand meet the market</h1>
+          <h2>We  help organise yourmarketing so you can get better result</h2>
+          <div id="button">Get Started</div>
+        </div>
+  </div>
+     <!-- Just an image -->
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
