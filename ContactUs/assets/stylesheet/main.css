@@ -1,0 +1,65 @@
+body {
+     overflow: hidden;
+     position: relative;  
+    margin: 0px;
+    font-family: lato;
+    background-image: url(../images/Contact\ Bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  nav {
+    justify-content: space-between !important;
+  } 
+  #header {
+    position: absolute;
+    top: 18px;
+    width: 90%;
+    z-index: 100;
+    left: 40px;        
+  }
+  .background {
+    width: fit-content;
+  }
+  .background img {
+    width: 90%;
+    min-height: inherit;
+  }
+  #bt {
+    left: 48%;
+    top: 516px;
+    position: absolute;
+    width: 12%;
+
+  }
+  #bt img {
+    width: 100%;
+  }
+  #bt2 {
+    width: 18%;
+    position: absolute;
+    left: 65%;
+    top: 170px;
+  }
+  #bt2 img {
+    width: 75%;
+  }
+  #bt3 {
+    position: absolute;
+    top: 325px;
+    width: 28%;
+    left: 11%;
+  }
+  #bt3 img {
+    width: 100%;
+  }
+  #footer {
+    position: absolute;
+    top: 670px;
+    left: 6%;
+  }
+  #para {
+    position: absolute;
+    top: 196px;
+    left: 6%;
+  }
